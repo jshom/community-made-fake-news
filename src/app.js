@@ -21,7 +21,7 @@ io.on('connect', socket => {
   socket.on('poll-sentence', (id, msg) => {
 
   })
-  socket.on('disconnect', (id, msg) => { // handle reassign })
+  socket.on('disconnect', (reason) => { // handle reassign })
 })
 
 io.on('')
